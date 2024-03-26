@@ -14,6 +14,10 @@
     inset 0 0 25px rgba(140, 150, 170, 50), inset 0 0 25px rgb(83, 94, 104);
 }
 
+.reclame_block__element_text:first-child:hover {
+  opacity: 0.5;
+}
+
 .reclame_block__element_text:nth-child(2) {
   color: aliceblue;
   margin: 0 auto;

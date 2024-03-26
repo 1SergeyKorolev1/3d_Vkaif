@@ -43,6 +43,17 @@ function renderAll() {
         <h2 className="reclame_block__element_text">{word_2}</h2>
         <img src={image_} className="reclame_block__element_image" />
       </div>
+      <a
+        href="https://vk.com/3dvkaif"
+        target="_blank"
+        className="target_vk"
+      ></a>
+      <div className="secret_block"></div>
+      <div className="secret_block">
+        <p className="secret_block__element_text">
+          сайт находится в разработке..!
+        </p>
+      </div>
     </>,
     document.querySelector("#root")
   );

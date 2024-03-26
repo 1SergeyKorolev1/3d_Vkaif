@@ -1,0 +1,10 @@
+.secret_block__element_text {
+  margin: auto;
+  color: azure;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.secret_block__element_text:hover {
+  color: black;
+}

@@ -6,3 +6,7 @@
 
 @import url(./component/model_block/model_block.css);
 @import url(./component/model_block/__image/model_block__image.css);
+@import url(./component/secret_block/secret_block.css);
+
+@import url(./component/target_vk/target_vk.css);
+@import url(./component/secret_block/__element_text/__element_text.css);
