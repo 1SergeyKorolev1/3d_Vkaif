@@ -1,4 +1,5 @@
 @import url(./component/glav_block/glav_block.css);
+@import url(./component/root_block/root_block.css);
 
 @import url(./component/reclame_block/reclame_block.css);
 @import url(./component/reclame_block/__element_text/__element_text.css);
@@ -10,3 +11,6 @@
 
 @import url(./component/target_vk/target_vk.css);
 @import url(./component/secret_block/__element_text/__element_text.css);
+
+@import url(./component/header__square/header__square.css);
+@import url(./component/rotation/rotation.css);
