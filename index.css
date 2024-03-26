@@ -1,0 +1,8 @@
+@import url(./component/glav_block/glav_block.css);
+
+@import url(./component/reclame_block/reclame_block.css);
+@import url(./component/reclame_block/__element_text/__element_text.css);
+@import url(./component/reclame_block/__element_image/__element_image.css);
+
+@import url(./component/model_block/model_block.css);
+@import url(./component/model_block/__image/model_block__image.css);

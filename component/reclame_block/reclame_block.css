@@ -1,0 +1,11 @@
+.reclame_block {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #9ef7ff;
+  /* background-image: url(../imaje/reclame_block/fon.jpg); */
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 10px 20px 20px black;
+}
