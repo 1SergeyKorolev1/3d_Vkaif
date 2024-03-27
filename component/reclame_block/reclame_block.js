@@ -14,6 +14,7 @@ const arr_images = [
 
 let word_1 = "ПРИВЕТ";
 let word_2 = "Сайт Сообщества 3d vkaif";
+let word_3 = "сайт находится в разработке..!";
 let image_ = "./component/imaje/reclame_block/hello.jpg";
 
 function renderAll() {
@@ -50,9 +51,7 @@ function renderAll() {
       ></a>
       <div className="secret_block"></div>
       <div className="secret_block">
-        <p className="secret_block__element_text">
-          сайт находится в разработке..!
-        </p>
+        <p className="secret_block__element_text">{word_3}</p>
       </div>
     </>,
     document.querySelector("#root")
@@ -74,5 +73,17 @@ element.addEventListener("click", () => {
   word_1 = "Привет";
   word_2 = "Сайт Сообщества 3d vkaif";
   image_ = "./component/imaje/reclame_block/hello.jpg";
+  renderAll();
+});
+
+const element_up = document.querySelector(".secret_block__element_text");
+element_up.addEventListener("mouseover", () => {
+  word_3 =
+    "все модели на сайте включая лого интерактивны (их можно вращать, двигать и зумить)";
+  renderAll();
+});
+
+element_up.addEventListener("mouseout", () => {
+  word_3 = "сайт находится в разработке..!";
   renderAll();
 });
